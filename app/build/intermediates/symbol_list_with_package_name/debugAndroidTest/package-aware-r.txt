@@ -1,0 +1,3 @@
+com.example.esp32camviewer.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

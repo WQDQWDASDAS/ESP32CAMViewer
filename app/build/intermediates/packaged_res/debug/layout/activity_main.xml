@@ -1,0 +1,195 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/pink">
+
+        <TextView
+            android:id="@+id/Settings_textview"
+            android:layout_width="181dp"
+            android:layout_height="57dp"
+            android:text="@string/settings"
+            android:textColor="@color/blue"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.561"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.567" />
+
+        <TextView
+            android:id="@+id/Name_Camera_textview"
+            android:layout_width="181dp"
+            android:layout_height="57dp"
+            android:text="@string/Camera"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.049" />
+
+        <Button
+            android:id="@+id/wifi_Turn_On_button"
+            android:layout_width="132dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/Turn_On"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.664" />
+
+        <TextView
+            android:id="@+id/WiFi_textview"
+            android:layout_width="181dp"
+            android:layout_height="57dp"
+            android:text="@string/WiFi"
+            android:textColor="@color/yellow"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.324"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.664" />
+
+        <ImageView
+            android:id="@+id/cameraView_imageview"
+            android:layout_width="413dp"
+            android:layout_height="287dp"
+            android:layout_marginBottom="356dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="1" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="341dp"
+            android:layout_height="63dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.766">
+
+                <TextView
+                    android:id="@+id/Connect_textview"
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/connect"
+                    android:textColor="@color/yellow"
+                    android:textSize="32dp" />
+
+                <TextView
+                    android:id="@+id/txtRES_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAllCaps="true"
+                    android:textColor="@color/green"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.773"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cameraView"
+                    app:layout_constraintVertical_bias="0.153" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="341dp"
+            android:layout_height="63dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.875">
+
+                <TextView
+                    android:id="@+id/Camera_textview"
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/Camera"
+                    android:textColor="@color/yellow"
+                    android:textSize="32dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.117"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.826" />
+
+                <TextView
+                    android:id="@+id/txtRES1_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text=""
+                    android:textAllCaps="true"
+                    android:textColor="@color/green"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.773"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cameraView"
+                    app:layout_constraintVertical_bias="0.468" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Renewal_textview"
+            android:layout_width="181dp"
+            android:layout_height="57dp"
+            android:text="@string/renewal"
+            android:textColor="@color/yellow"
+            android:textSize="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.324"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976" />
+
+        <Button
+            android:id="@+id/onovlena_button"
+            android:layout_width="132dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/Turn_On"
+            android:textColor="@color/green"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.973" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

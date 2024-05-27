@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#00FFEA</color>
+    <color name="green">#2BFF00</color>
+    <color name="pink">#FF0099</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FBFF00</color>
+    <string name="Camera">Camera:</string>
+    <string name="Turn_On">Turn_On</string>
+    <string name="WiFi">Wi-Fi:</string>
+    <string name="app_name">ESP32CAMViewer</string>
+    <string name="connect">Connect:</string>
+    <string name="default_web_client_id" translatable="false">120199509792-dr8a71aev3gi9i9ibn33bnb79vj9te5p.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://esp32-cam-4ce01-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">120199509792</string>
+    <string name="google_api_key" translatable="false">AIzaSyA8qk9oMGd8VNpTBwpPST0I-57aoTQQ__8</string>
+    <string name="google_app_id" translatable="false">1:120199509792:android:3708ffe495bdd833794945</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA8qk9oMGd8VNpTBwpPST0I-57aoTQQ__8</string>
+    <string name="google_storage_bucket" translatable="false">esp32-cam-4ce01.appspot.com</string>
+    <string name="project_id" translatable="false">esp32-cam-4ce01</string>
+    <string name="renewal">Renewal:</string>
+    <string name="settings">Settings</string>
+    <style name="Base.Theme.ESP32CAMViewer" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ESP32CAMViewer" parent="Base.Theme.ESP32CAMViewer"/>
+</resources>
